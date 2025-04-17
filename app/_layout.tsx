@@ -27,6 +27,8 @@ export default function RootLayout() {
     return null;
   }
 
+  console.log('asdfg')
+
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
